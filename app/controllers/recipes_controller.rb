@@ -16,5 +16,5 @@ class RecipesController < ApplicationController
   def create
     @recipe = Recipe.create (recipe_params)
   end
-  
+
 end
